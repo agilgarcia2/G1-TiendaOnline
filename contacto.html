@@ -7,17 +7,19 @@
     <title>Contacto - Tienda de Tecnología</title>
 </head>
 <body>
-    
-<h1>Página de Contacto</h1><br>
+    <h1>Página de Contacto</h1><br>
+    <div class="home">
+        <a href="index.html"><img src="images/home.svg"></a>
+    </div>
+    <div class="formulario">
+        <p><b>Correo Electrónico:</b> actividad5@contacto.ende</p>
+        <p><b>Teléfono:</b> 987 65 43 21</p><br>
 
-<p>Correo Electrónico: actividad5@contacto.ende</p><br>
-
-<p>Teléfono: 987 65 43 21</p><br>
- 
-<form action="get">
-    <label for="msg">¿Quieres comentarnos algo?</label><br>
-    <textarea name="msg" id="msg" cols="30" rows="10"></textarea><br>
-    <input type="button" value="Enviar">
-</form>
+        <form action="contacto.html" method="get">
+            <label for="msg">¿Quieres comentarnos algo?</label><br>
+            <textarea name="msg" id="msg" rows="10"></textarea><br>
+            <input type="submit" value="Enviar" class="btn-enviar">
+        </form>
+    </div>
 </body>
 </html>
